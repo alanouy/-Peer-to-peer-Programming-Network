@@ -1,0 +1,16 @@
+{
+  "name": "aouy2-assignment2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "peer.js",
+  "dependencies": {
+    "minimist": "^1.2.0",
+    "opn": "^5.5.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {},
+  "author": "Alan Ouy",
+  "license": "ISC"
+}
