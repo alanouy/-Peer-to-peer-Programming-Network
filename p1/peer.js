@@ -32,13 +32,13 @@ peerServer.on('connection', function(sock){
 if(typeof(args.v) && typeof(args.n) && typeof(args.s) === 'undefined'){
     console.log('this peer address is ' + serverHOST + ':' + serverPORT + ' located at ' + parentFolder);
 
-    peerServer.on('connection', function(sock){
-        handler.handleClientJoining(sock, serverPORT, parentFolder); //called for each client joining
+    // peerServer.on('connection', function(sock){
+    //     handler.handleClientJoining(sock, serverPORT, parentFolder); //called for each client joining
 
-    });
+    // });
     
     
-}else{
+} else{
     const args = require('minimist')(process.argv.slice(2));
     var server = args.s.split(":");
     var version = args.v;
